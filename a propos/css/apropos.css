@@ -1,0 +1,32 @@
+.nav-item a{
+    color: white;
+}
+
+.nav-item a:hover{
+    color: blue;
+}
+.heado{
+    text-align: center;
+    color: aliceblue;
+    font-size: 12px ;
+}
+.text{
+    text-align: center;
+}
+.fin{
+    text-align: center;
+    color: turquoise;
+    font-size: 12px ;
+}
+.liens{
+    font-size: 25px;
+}
+body{
+    background-image: url(../../Image/mafiile.jpeg);
+    filter: brightness(90%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+p{
+    color: rgb(13, 201, 26);
+}

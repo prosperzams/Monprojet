@@ -1,0 +1,60 @@
+.nav-item a{
+    color: white;
+}
+.head{
+    text-align: center;
+}
+.head h1{
+    margin-top: 85px;
+}
+.nav-item a:hover{
+    color: yellow;
+}
+.heado{
+    text-align: center;
+    color: aliceblue;
+    font-size: 12px ;
+}
+.text{
+    text-align: center;
+}
+.fin{
+    text-align: center;
+    color: turquoise;
+    font-size: 12px ;
+}
+.carousel-item img {
+    filter: brightness(50%);
+}
+.end-1{
+    margin-bottom: 10%;
+}
+.end-1 .one-1{
+    font-size: 20px;
+    color: green;
+}
+.end-1 .one-2{
+    font-size: 19px;
+    color: red;
+}
+.end-1 .one-3{
+    font-size: 18px;
+    color: yellow;
+    
+}
+@media screen and ( max-width:900px) {
+    .carousel-item{
+        height: auto;
+    }
+}
+@media screen and (min-width:900px) {
+    .carousel-caption{
+        margin-top: none;
+    }
+}
+.liens{
+    font-size: 25px;
+}
+.carousel-caption{
+    text-align: center;
+}

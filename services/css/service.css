@@ -1,0 +1,35 @@
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    color: black;
+}
+.heado{
+    text-align: center;
+    color: aliceblue;
+    font-size: 12px ;
+}
+.text{
+    text-align: center;
+}
+.fin{
+    text-align: center;
+    color: turquoise;
+    font-size: 12px ;
+}
+.row1{
+    text-align: center;
+    margin: 5;
+}
+h2.metro{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 10;
+}
+.liens{
+    color: silver;
+    
+}
+.liens{
+    font-size: 25px;
+}

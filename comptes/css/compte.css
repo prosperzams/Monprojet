@@ -1,0 +1,31 @@
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    color: yellow;
+}
+.heado{
+    text-align: center;
+    color: aliceblue;
+    font-size: 12px ;
+}
+.text{
+    text-align: center;
+}
+.fin{
+    text-align: center;
+    color: turquoise;
+    font-size: 12px ;
+}
+.row-1{
+    text-align: center;
+    color: royalblue;
+    margin: 10;
+}
+.start{
+    color: black;
+    text-decoration: underline;
+}
+.liens{
+    font-size: 25px;
+}

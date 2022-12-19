@@ -1,0 +1,40 @@
+.nav-item a{
+    color: gold;
+}
+.nav-item a:hover{
+    color: magenta;
+}
+.heado{
+    text-align: center;
+    color: aliceblue;
+    font-size: 12px ;
+}
+.text{
+    text-align: center;
+}
+.row1{
+    text-align: center;
+    margin-bottom: 10rem;
+    margin-top: 10rem;    
+}
+.fin{
+    text-align: center;
+    color: turquoise;
+    font-size: 12px ;
+}
+.n1{
+    color: goldenrod;
+}
+.img1{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width:900px) {
+    .btn{
+        height: auto;
+    }
+}
+
+.liens{
+    font-size: 25px;
+}

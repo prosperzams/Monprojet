@@ -1,0 +1,65 @@
+.nav-item a{
+    color: white;
+}
+.nav-item a:visited{
+    color: white;
+}
+.nav-item a:hover{
+    color: red;
+}
+.heado{
+    text-align: center;
+    color: black;
+    font-size: 12px ;
+}
+.text{
+    text-align: center;
+}
+.fin{
+    text-align: center;
+    color: green;
+    font-size: 12px ;
+}
+.card{
+    margin: 5;
+    border: none;
+}
+.row-1{
+    text-align: center;
+    color: green;
+    margin-top: 10;
+}
+.start{
+    text-align: center;
+    color: black;
+    margin-top: 10;
+    margin-bottom: 8;
+
+}
+.start1{
+    text-align: center;
+    color: black;
+    margin-top: 10;
+    margin-bottom: 8;
+    color: green;
+}
+.row-2{
+    text-align: center;
+    color: green;
+    margin: 10;
+}
+@media screen and (max-width:900px) {
+    .liens{
+        font-size: small;
+    }
+    
+}
+.card-text-tel{
+    text-decoration: underline;
+}
+.liens{
+    font-size: 25px;
+}
+fa-brands.liens{
+    color: white;
+}
