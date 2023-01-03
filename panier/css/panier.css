@@ -1,8 +1,8 @@
 .nav-item a{
-    color: gold;
+    color: white;
 }
 .nav-item a:hover{
-    color: magenta;
+    color: red
 }
 .heado{
     text-align: center;

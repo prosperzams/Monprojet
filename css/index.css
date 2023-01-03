@@ -63,3 +63,11 @@
 fa-brands.liens{
     color: white;
 }
+blockquote{
+background-size: cover;
+background-repeat: no-repeat;
+}
+nav{    
+background-size: cover;
+background-repeat: no-repeat;
+}

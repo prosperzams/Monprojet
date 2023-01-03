@@ -17,21 +17,19 @@
     color: turquoise;
     font-size: 12px ;
 }
-.row-1{
-    margin-top: 5rem;
-    margin-bottom: 10rem;
-}
-.start{
-    color: black;
-    text-decoration: underline;
-}
-.text a{
+.row1{
     text-align: center;
-    color: aliceblue;
-    font-size: 25px;
+    margin: 5;
 }
-.col{
-
-    text-align: center;    
-    margin-top: 10px;
+h2.metro{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 10;
+}
+.liens{
+    color: silver;
+    
+}
+.liens{
+    font-size: 25px;
 }

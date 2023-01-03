@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/compte.css">
-    <link rel="icon" href="../Image/pic1.jpg">
-    <title>Comptes</title>
+    <link rel="stylesheet" href="css/CreerCompte.css">
+    <link rel="icon" href="../../Image/pic1.jpg">
+    <title>Creer votre compte</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-image: url(../Image/Rose-Hubble-Tissu-Popeline-de-Coton-Uni-Couleur-Rose-Poudre-2.jpg);">
+    <nav class="navbar navbar-expand-lg" style="background-image: url(../../Image/Rose-Hubble-Tissu-Popeline-de-Coton-Uni-Couleur-Rose-Poudre-2.jpg);">
         <div class="container-fluid">
-          <a class="navbar-brand ms-3" href="../index.html">
-            <img src="../Image/pic1.jpg" width="90px">
+          <a class="navbar-brand ms-3" href="../../index.html">
+            <img src="../../Image/pic1.jpg" width="90px">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span>
@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item px-3">
-                        <a class="nav-link" aria-current="page" href="../index.html">ACCUEIL</a>
+                        <a class="nav-link" aria-current="page" href="../../index.html">ACCUEIL</a>
                     </li>
                     <li class="nav-item px-3 dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -35,20 +35,20 @@
                           <li><a class="dropdown-item text-dark" href="#">Ma pharmacie</a></li>
                           <li><a class="dropdown-item text-dark" href="#">Alimentation</a></li>
                           <li><a class="dropdown-item text-dark" href="#">Vestimentaire</a></li>
-                          <li><a class="dropdown-item text-dark" href="../services/service.html">Plus</a></li>
+                          <li><a class="dropdown-item text-dark" href="../../services/service.html">Plus</a></li>
                         </ul>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link" href="../panier/panier.html">PANIER</a>
+                        <a class="nav-link" href="../../panier/panier.html">PANIER</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link" href="compte.html">COMPTES</a>
+                        <a class="nav-link" href="../compte.html">COMPTES</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link" href="../a propos/a propos.html">A PROPOS</a>
+                        <a class="nav-link" href="../../a propos/a propos.html">A PROPOS</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link" href="../contact/contact.html">CONTACT</a>
+                        <a class="nav-link" href="../../contact/contact.html">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -56,28 +56,80 @@
     </nav>
     <div class="container">
         <div class="row-1">
-            <form action="">
-                <div class="col">
-                    <label for="Nom" class="form-label">Votre Identifiant</label>
-                    <input type="text" class="form-control" id="identifiant" placeholder="Pondra M'ba">
-                </div>
-                <div class="col">
-                    <label for="Nom" class="form-label">Mot de passe</label>
-                    <input type="password" class="form-control" id="password" placeholder="Pondra M'ba">
-                </div>
-                <button type="submit" class="btn btn-dark mt-3">Envoyer</button><br>
-                <div class="new mt-3">
-                    <a href="CreerCompte/CreerCompte.html">Creer un compte</a><br>
-                </div>
-            </form>
+            <h1>Vous-êtes sur le point de créer votre compte</h1>
+            <p>Avez-vous lu nos conditions d'utilisation? <br>
+                Si non. Veuillez cliquez ici <a href="#" class="btn btn-info">Lire</a>
+            </p>
+            <p class="start">
+                Veuillez remplir ce formulaire et nous l'envoyer
+            </p>        
         </div>
     </div>
 
-    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">    
+                <div class="mb-3">
+                    <label for="Nom" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="Nom" placeholder="Pondra M'ba">
+                </div>
+            </div>
+            <div class="col-lg-6">    
+                <div class="mb-3">
+                    <label for="prenom" class="form-label">Prenom</label>
+                    <input type="text" class="form-control" id="prenom" placeholder="Frederic">
+                </div>
+            </div>
+            <div class="col-lg-6">    
+                <div class="mb-3">
+                    <label for="telephone" class="form-label">N° de tél</label>
+                    <input type="number" class="form-control" id="telephone" placeholder="+2376********">
+                </div>
+            </div>
+            <div class="col-lg-6">    
+                <div class="mb-3">
+                    <label for="email" class="form-label">Adresse email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Pondra@gmail.com">
+                </div>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <label for="nationalite" class="form-label">Nationalité</label>
+                <input class="form-control" type="text" placeholder="Camerounais(e)" aria-label="nationalite" id="nationalite" disabled>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <label for="origine" class="form-label">Pays d'origine</label>
+                <input class="form-control" type="text" placeholder="Cameroun" aria-label="origine" id="nationalite" disabled>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <label for="residence" class="form-label">Ville de résidence</label>
+                <input class="form-control" type="text" placeholder="Nkolouloun" aria-label="residence" id="nationalite">
+            </div>
+            <div class="col-lg-6 mb-3">
+                <label for="reference" class="form-label">Lieu de réfèrences</label>
+                <input class="form-control" type="text" placeholder="Comissariat 6eme" aria-label="reference" id="nationalite">
+            </div>
+            <div class="mb-3">
+                <label for="avis" class="form-label">Motivation</label>
+                <textarea class="form-control" id="avis" placeholder="Qu'est-ce-qui vous motive à créer votre compte chez-nous?" rows="5"></textarea>
+            </div>
+            <div class="col-6 col-lg-6 col-md-6 mb-3">
+                <div class="ended">
+                    <button type="submit" class="btn btn-dark">Envoyer</button>
+
+                </div>
+            </div>
+            <div class="col-6 col-lg-6 col-md-6 mb-3">
+                <div class="end" style="text-align: right;">
+                    <button type="submit" class="btn btn-danger">Annuler</button>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <div class="container-fluid">
         <div class="row">
-            <blockquote class="blockquote mb-0" style="background-image: url(../Image/Rose-Hubble-Tissu-Popeline-de-Coton-Uni-Couleur-Rose-Poudre-2.jpg);">
+            <blockquote class="blockquote mb-0" style="background: darkgrey;">
                 <footer class="blockquote-footer">
                     <!-- Someone famous in <cite title="Source Title">Source Title</cite> -->
                     <div class="heado">
@@ -104,7 +156,7 @@
                             </div>
                         </div>
                         <div class="text">
-                            <p> DIsponible à la demande sur <br>
+                            <p> DIsponible à la demande sur 
                                 <a href=""><i class="fa-brands fa-facebook"></i></a>
                                 <a href=""><i class="fa-brands fa-instagram"></i></a>
                                 <a href=""><i class="fa-brands fa-whatsapp"></i>

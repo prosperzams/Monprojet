@@ -3,7 +3,7 @@
 }
 
 .nav-item a:hover{
-    color: blue;
+    color: red;
 }
 .heado{
     text-align: center;
@@ -22,11 +22,17 @@
     font-size: 25px;
 }
 body{
-    background-image: url(../../Image/mafiile.jpeg);
-    filter: brightness(90%);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
-p{
-    color: rgb(13, 201, 26);
+.vtre{
+    padding: 6;
+}
+.about{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+button{
+    text-align: center;
 }
