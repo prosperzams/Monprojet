@@ -1,3 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;/*prend en compte les calcules reel des largeur*/
+}
+.cc-navbar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    z-index: 99;
+}
 .nav-item a{
     color: white;
 }
@@ -8,7 +18,7 @@
     margin-top: 85px;
 }
 .nav-item a:hover{
-    color: yellow;
+    color: rgb(255, 0, 0);
 }
 .heado{
     text-align: center;

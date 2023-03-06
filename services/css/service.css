@@ -1,3 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;/*prend en compte les calcules reel des largeur*/
+}
+.cc-navbar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    z-index: 99;
+}
 .nav-item a{
     color: white;
 }
@@ -22,9 +32,11 @@
     margin: 5;
 }
 h2.metro{
-    color: blue;
+    color: rgb(6, 6, 14);
     text-decoration: underline;
     margin-bottom: 10;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
 }
 .liens{
     color: silver;

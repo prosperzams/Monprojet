@@ -1,3 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;/*prend en compte les calcules reel des largeur*/
+}
+body{
+    background-image: url(../../Image/bgbtik.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+}
+.cc-navbar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    z-index: 99;
+}
 .nav-item a{
     color: white;
 }
@@ -18,8 +34,8 @@
     font-size: 12px ;
 }
 .row-1{
-    margin-top: 5rem;
-    margin-bottom: 10rem;
+    margin-top: 3;
+    margin-bottom: 3;
 }
 .start{
     color: black;
@@ -34,4 +50,8 @@
 
     text-align: center;    
     margin-top: 10px;
+}
+.img-fluid{
+    padding-top: 120px;
+    padding-left: 30px;
 }
